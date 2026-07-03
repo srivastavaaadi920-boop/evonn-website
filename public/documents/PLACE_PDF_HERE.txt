@@ -1,0 +1,13 @@
+INSTRUCTIONS:
+===============
+
+Place your EV-ONN company profile PDF here with the following name:
+ev-onn-company-profile.pdf
+
+The PDF you provided should be renamed to:
+ev-onn-company-profile.pdf
+
+And placed in this directory:
+public/documents/
+
+The download button is now live on the About page!

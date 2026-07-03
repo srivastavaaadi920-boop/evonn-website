@@ -1,0 +1,14 @@
+<svg width="1440" height="800" viewBox="0 0 1440 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 650C200 580 350 720 550 650C750 580 850 450 1050 500C1250 550 1350 700 1440 650"
+stroke="#22C55E"
+stroke-width="2"
+opacity="0.18"/>
+<path d="M0 700C250 620 450 760 650 680C850 600 1050 500 1250 550C1350 580 1400 650 1440 680"
+stroke="#22C55E"
+stroke-width="2"
+opacity="0.14"/>
+<path d="M0 750C250 670 450 780 700 700C900 630 1150 560 1440 620"
+stroke="#22C55E"
+stroke-width="2"
+opacity="0.10"/>
+</svg>
