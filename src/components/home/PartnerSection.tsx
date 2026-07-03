@@ -257,23 +257,23 @@ export default function PartnerSection() {
                   }}
                   onMouseEnter={(e) => {
                     e.currentTarget.style.backgroundColor = '#22C55E';
-                    const span = e.currentTarget.querySelector('span');
-                    const circle = e.currentTarget.querySelector('.arrow-circle');
+                    const span = e.currentTarget.querySelector('span') as HTMLElement | null;
+                    const circle = e.currentTarget.querySelector('.arrow-circle') as HTMLElement | null;
                     if (span) span.style.color = '#FFFFFF';
                     if (circle) {
                       circle.style.backgroundColor = '#FFFFFF';
-                      const arrow = circle.querySelector('svg');
+                      const arrow = circle.querySelector('svg') as HTMLElement | null;
                       if (arrow) arrow.style.color = '#22C55E';
                     }
                   }}
                   onMouseLeave={(e) => {
                     e.currentTarget.style.backgroundColor = '#FFFFFF';
-                    const span = e.currentTarget.querySelector('span');
-                    const circle = e.currentTarget.querySelector('.arrow-circle');
+                    const span = e.currentTarget.querySelector('span') as HTMLElement | null;
+                    const circle = e.currentTarget.querySelector('.arrow-circle') as HTMLElement | null;
                     if (span) span.style.color = '#22C55E';
                     if (circle) {
                       circle.style.backgroundColor = '#22C55E';
-                      const arrow = circle.querySelector('svg');
+                      const arrow = circle.querySelector('svg') as HTMLElement | null;
                       if (arrow) arrow.style.color = '#FFFFFF';
                     }
                   }}
