@@ -359,7 +359,7 @@ function ProjectCard({ project, accentColor }: { project: Project; accentColor: 
       </div>
 
       {/* Content */}
-      <div className="p-8 flex flex-col flex-1 space-y-4">
+      <div className="p-5 sm:p-8 flex flex-col flex-1 space-y-4">
         <div className="flex justify-between items-center text-[10px] font-black uppercase tracking-[0.2em]">
           <span className={accentColor}>Case Study</span>
           <div className={`flex items-center gap-1 ${accentColor}`}>
@@ -368,7 +368,7 @@ function ProjectCard({ project, accentColor }: { project: Project; accentColor: 
           </div>
         </div>
 
-        <h3 className="text-xl font-stencil uppercase text-secondary group-hover:text-primary transition-colors leading-tight">
+        <h3 className="text-lg sm:text-xl font-stencil uppercase text-secondary group-hover:text-primary transition-colors leading-tight">
           {project.title}
         </h3>
 
@@ -399,16 +399,16 @@ function CategorySection({ category }: { category: CategoryData }) {
     <Section className="py-20 border-b border-gray-100 last:border-b-0" id={category.id}>
       <div className="section-container !py-0">
         {/* Category Header */}
-        <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-14">
-          <div className="flex items-start gap-5">
-            <div className={`${category.accentBg} ${category.accentColor} ${category.accentBorder} border rounded-2xl p-4 shrink-0`}>
+        <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-8 sm:mb-14">
+          <div className="flex items-start gap-4 sm:gap-5">
+            <div className={`${category.accentBg} ${category.accentColor} ${category.accentBorder} border rounded-2xl p-3 sm:p-4 shrink-0`}>
               {category.icon}
             </div>
             <div>
-              <h2 className="text-3xl md:text-4xl font-stencil uppercase text-secondary">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-stencil uppercase text-secondary">
                 {category.label}
               </h2>
-              <p className="text-secondary/50 mt-2 text-base max-w-lg">
+              <p className="text-secondary/50 mt-2 text-sm sm:text-base max-w-lg">
                 {category.tagline}
               </p>
             </div>
@@ -442,10 +442,10 @@ export default function ProjectsPage() {
       <Section className="bg-white py-24 border-b border-gray-100">
         <div className="section-container text-center max-w-4xl mx-auto !py-0 space-y-8">
           <span className="text-primary font-bold uppercase tracking-[0.3em] text-sm">Portfolio</span>
-          <h1 className="text-5xl md:text-7xl font-stencil uppercase mt-6 mb-4">
+          <h1 className="text-3xl sm:text-5xl md:text-7xl font-stencil uppercase mt-4 sm:mt-6 mb-2 sm:mb-4">
             Featured <span className="text-primary italic underline decoration-primary/20">Projects</span>
           </h1>
-          <p className="text-xl text-secondary/60 max-w-2xl mx-auto">
+          <p className="text-lg sm:text-xl text-secondary/60 max-w-2xl mx-auto">
             Exploring our impact on India&apos;s EV landscape through successful turnkey deployments across government, commercial, and industrial sectors.
           </p>
 
@@ -463,8 +463,8 @@ export default function ProjectsPage() {
       {/* ── CTA Section ── */}
       <Section className="bg-primary text-white py-24">
         <div className="section-container text-center space-y-8 !py-0">
-          <h2 className="text-4xl font-stencil uppercase">Have a project in mind?</h2>
-          <p className="text-xl text-white/70 max-w-2xl mx-auto">
+          <h2 className="text-3xl sm:text-4xl font-stencil uppercase">Have a project in mind?</h2>
+          <p className="text-lg sm:text-xl text-white/70 max-w-2xl mx-auto">
             Let&apos;s build a future-ready charging infrastructure for your business.
           </p>
           <Link href="/contact" className="btn-primary !bg-secondary !text-white !px-12 inline-block">

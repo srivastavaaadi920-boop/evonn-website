@@ -91,13 +91,13 @@ export default function WhyChooseUs() {
       </div>
 
       <div className="section-container relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20">
           {/* Left Side - Stats and Heading */}
           <div className="space-y-12">
-            <div className="space-y-6">
+            <div className="space-y-4 sm:space-y-6">
               <span className="text-[#22C55E] font-bold uppercase tracking-widest text-sm">Our Edge</span>
-              <h2 className="text-4xl md:text-5xl font-serif leading-tight text-[#1E293B]">
-                Why Businesses <br/> Trust <span className="text-[#22C55E] italic">EV-ONN</span>
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif leading-tight text-[#1E293B]">
+                Why Businesses <br className="hidden sm:block"/> Trust <span className="text-[#22C55E] italic">EV-ONN</span>
               </h2>
               <p className="text-[#475569] leading-relaxed text-base max-w-xl">
                 We combine advanced technology, expert engineering, and reliable support to deliver future-ready EV infrastructure solutions that businesses can depend on.
@@ -107,34 +107,34 @@ export default function WhyChooseUs() {
               </p>
             </div>
 
-            <div className="grid grid-cols-2 gap-12 pt-8">
-              <div className="space-y-2">
-                <p className="text-5xl font-bold text-[#22C55E]"><Counter value={500} suffix="+" /></p>
+            <div className="grid grid-cols-2 gap-6 sm:gap-12 pt-6 sm:pt-8">
+              <div className="space-y-1 sm:space-y-2">
+                <p className="text-3xl sm:text-5xl font-bold text-[#22C55E]"><Counter value={500} suffix="+" /></p>
                 <p className="text-[#64748B] uppercase tracking-widest text-xs font-semibold">Charging Sessions Supported</p>
               </div>
-              <div className="space-y-2">
-                <p className="text-5xl font-bold text-[#22C55E]"><Counter value={150} suffix="+" /></p>
+              <div className="space-y-1 sm:space-y-2">
+                <p className="text-3xl sm:text-5xl font-bold text-[#22C55E]"><Counter value={150} suffix="+" /></p>
                 <p className="text-[#64748B] uppercase tracking-widest text-xs font-semibold">Projects Delivered</p>
               </div>
-              <div className="space-y-2">
-                <p className="text-5xl font-bold text-[#22C55E]"><Counter value={25} suffix="+" /></p>
+              <div className="space-y-1 sm:space-y-2">
+                <p className="text-3xl sm:text-5xl font-bold text-[#22C55E]"><Counter value={25} suffix="+" /></p>
                 <p className="text-[#64748B] uppercase tracking-widest text-xs font-semibold">Cities Served</p>
               </div>
-              <div className="space-y-2">
-                <p className="text-5xl font-bold text-[#22C55E]"><Counter value={5} suffix="+" /></p>
+              <div className="space-y-1 sm:space-y-2">
+                <p className="text-3xl sm:text-5xl font-bold text-[#22C55E]"><Counter value={5} suffix="+" /></p>
                 <p className="text-[#64748B] uppercase tracking-widest text-xs font-semibold">Years Combined Experience</p>
               </div>
             </div>
           </div>
 
           {/* Right Side - Benefit Cards */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 items-start">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 items-start">
             {benefits.map((benefit, i) => (
               <motion.div
                 key={i}
                 whileHover={{ scale: 1.02, y: -5 }}
                 transition={{ duration: 0.3 }}
-                className="p-8 rounded-3xl space-y-4"
+                className="p-5 sm:p-8 rounded-3xl space-y-3 sm:space-y-4"
                 style={{
                   background: 'rgba(255,255,255,0.75)',
                   backdropFilter: 'blur(20px)',

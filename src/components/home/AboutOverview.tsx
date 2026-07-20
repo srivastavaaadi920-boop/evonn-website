@@ -16,11 +16,11 @@ export default function AboutOverview() {
   return (
     <Section className="bg-white py-24 overflow-hidden">
       <div className="section-container">
-        <div className="flex flex-col lg:flex-row items-center gap-16">
+        <div className="flex flex-col lg:flex-row items-center gap-8 sm:gap-12 lg:gap-16">
           <div className="flex-1 space-y-8">
-            <div className="space-y-4">
+            <div className="space-y-3 sm:space-y-4">
               <span className="text-primary font-bold uppercase tracking-widest text-sm">Our Mission</span>
-              <h2 className="text-4xl md:text-5xl font-stencil leading-tight">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-stencil leading-tight">
                 Driving India's <span className="text-primary">EV Revolution</span>
               </h2>
             </div>
@@ -53,8 +53,8 @@ export default function AboutOverview() {
             </div>
             
             {/* Decorative elements */}
-            <div className="absolute -top-10 -right-10 w-40 h-40 bg-primary/10 rounded-full blur-3xl z-0"></div>
-            <div className="absolute -bottom-10 -left-10 w-64 h-64 bg-accent/10 rounded-full blur-3xl z-0"></div>
+            <div className="absolute -top-6 -right-6 w-28 h-28 bg-primary/10 rounded-full blur-3xl z-0"></div>
+            <div className="absolute -bottom-6 -left-6 w-40 h-40 bg-accent/10 rounded-full blur-3xl z-0"></div>
             
             <motion.div 
               initial={{ opacity: 0, scale: 0.8 }}

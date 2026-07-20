@@ -12,7 +12,10 @@ import {
   Newspaper, 
   Award,
   MapPin,
-  Briefcase
+  Briefcase,
+  Users,
+  Settings,
+  Package
 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import Logo from "../common/Logo";
@@ -33,11 +36,31 @@ interface NavLink {
 
 const navLinks: NavLink[] = [
   { name: "Home", href: "/" },
-  { name: "About Us", href: "/about" },
-  { name: "Services", href: "/services" },
-  { name: "Products", href: "/products" },
+  {
+    name: "Company",
+    isDropdown: true,
+    subLinks: [
+      { 
+        name: "About Us", 
+        href: "/about", 
+        description: "Learn about EV-ONN's mission, team, and vision", 
+        icon: "Users" 
+      },
+      { 
+        name: "Services", 
+        href: "/services", 
+        description: "Explore our complete range of EV infrastructure services", 
+        icon: "Settings" 
+      },
+      { 
+        name: "Products", 
+        href: "/products", 
+        description: "Browse our catalog of chargers, transformers, and more", 
+        icon: "Package" 
+      },
+    ]
+  },
   { name: "EV Station Setup", href: "/ev-station-setup" },
-  { name: "Projects", href: "/projects" },
   {
     name: "Business",
     isDropdown: true,
@@ -86,7 +109,6 @@ const navLinks: NavLink[] = [
       },
     ]
   },
-  { name: "Blogs", href: "/blogs" },
 ];
 
 const iconMap: { [key: string]: React.ComponentType<any> } = {
@@ -95,7 +117,10 @@ const iconMap: { [key: string]: React.ComponentType<any> } = {
   Newspaper,
   Award,
   MapPin,
-  Briefcase
+  Briefcase,
+  Users,
+  Settings,
+  Package
 };
 
 export default function Navbar() {
@@ -104,8 +129,10 @@ export default function Navbar() {
   const pathname = usePathname();
   const [isMediaHovered, setIsMediaHovered] = useState(false);
   const [isBusinessHovered, setIsBusinessHovered] = useState(false);
+  const [isCompanyHovered, setIsCompanyHovered] = useState(false);
   const [isMobileMediaOpen, setIsMobileMediaOpen] = useState(false);
   const [isMobileBusinessOpen, setIsMobileBusinessOpen] = useState(false);
+  const [isMobileCompanyOpen, setIsMobileCompanyOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -122,6 +149,9 @@ export default function Navbar() {
     if (pathname.startsWith("/business")) {
       setIsMobileBusinessOpen(true);
     }
+    if (["/about", "/services", "/products"].some(p => pathname === p || pathname.startsWith(p + "/"))) {
+      setIsMobileCompanyOpen(true);
+    }
   }, [pathname]);
 
   return (
@@ -132,8 +162,8 @@ export default function Navbar() {
     }`}>
       <div className={`glass-nav h-full flex items-center transition-all duration-500 ${
         scrolled 
-          ? "w-full max-w-6xl rounded-2xl shadow-xl shadow-primary/5 px-6" 
-          : "w-full max-w-full rounded-none border-transparent px-8"
+          ? "w-full max-w-6xl rounded-2xl shadow-xl shadow-primary/5 px-4 sm:px-6" 
+          : "w-full max-w-full rounded-none border-transparent px-4 sm:px-8"
       }`}>
         <div className="flex justify-between items-center w-full">
           <div className="flex-shrink-0">
@@ -148,18 +178,24 @@ export default function Navbar() {
                   ? pathname.startsWith("/media")
                   : link.name === "Business"
                   ? pathname.startsWith("/business")
+                  : link.name === "Company"
+                  ? ["/about", "/services", "/products"].some(p => pathname === p || pathname.startsWith(p + "/"))
                   : false;
                 
                 const isHovered = link.name === "Media" 
                   ? isMediaHovered
                   : link.name === "Business"
                   ? isBusinessHovered
+                  : link.name === "Company"
+                  ? isCompanyHovered
                   : false;
                 
                 const setHovered = link.name === "Media" 
                   ? setIsMediaHovered
                   : link.name === "Business"
                   ? setIsBusinessHovered
+                  : link.name === "Company"
+                  ? setIsCompanyHovered
                   : () => {};
 
                 return (
@@ -191,9 +227,11 @@ export default function Navbar() {
                           animate={{ opacity: 1, y: 0, scale: 1 }}
                           exit={{ opacity: 0, y: 12, scale: 0.95 }}
                           transition={{ duration: 0.2, ease: "easeOut" }}
-                          className={`absolute top-full mt-1 bg-white/95 backdrop-blur-xl border border-gray-100/80 shadow-2xl rounded-2xl p-5 z-50 ${
+                          className={`absolute top-full mt-1 bg-white/95 backdrop-blur-xl border border-gray-100/80 shadow-2xl rounded-2xl p-5 z-50 max-w-[calc(100vw-2rem)] ${
                             link.name === "Media" 
                               ? "right-[-80px] w-[550px] grid grid-cols-2 gap-4"
+                              : link.name === "Company"
+                              ? "left-0 w-[480px] flex flex-col gap-3"
                               : "right-0 w-[480px] flex flex-col gap-3"
                           }`}
                         >
@@ -293,18 +331,24 @@ export default function Navbar() {
                     ? pathname.startsWith("/media")
                     : link.name === "Business"
                     ? pathname.startsWith("/business")
+                    : link.name === "Company"
+                    ? ["/about", "/services", "/products"].some(p => pathname === p || pathname.startsWith(p + "/"))
                     : false;
                   
                   const isOpen = link.name === "Media" 
                     ? isMobileMediaOpen
                     : link.name === "Business"
                     ? isMobileBusinessOpen
+                    : link.name === "Company"
+                    ? isMobileCompanyOpen
                     : false;
                   
                   const setOpen = link.name === "Media" 
                     ? setIsMobileMediaOpen
                     : link.name === "Business"
                     ? setIsMobileBusinessOpen
+                    : link.name === "Company"
+                    ? setIsMobileCompanyOpen
                     : () => {};
 
                   return (

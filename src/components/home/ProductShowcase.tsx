@@ -38,9 +38,9 @@ export default function ProductShowcase() {
   return (
     <Section className="bg-gray-50 py-24">
       <div className="section-container">
-        <div className="text-center max-w-3xl mx-auto mb-20 space-y-4">
+        <div className="text-center max-w-3xl mx-auto mb-10 sm:mb-20 space-y-4">
           <span className="text-primary font-bold uppercase tracking-widest text-sm">Our Catalog</span>
-          <h2 className="text-4xl md:text-5xl font-stencil uppercase">Premium <span className="text-primary">Products</span></h2>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-stencil uppercase">Premium <span className="text-primary">Products</span></h2>
           <p className="text-lg text-secondary/60">End-to-end product solutions for India&apos;s EV charging ecosystem.</p>
         </div>
 

@@ -14,7 +14,7 @@ export default function CertificationsPage() {
           <span className="text-primary font-bold uppercase tracking-[0.3em] text-sm flex items-center justify-center gap-2">
             <Award size={16} /> Compliance
           </span>
-          <h1 className="text-4xl md:text-6xl font-stencil uppercase">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-stencil uppercase">
             Certifications & <span className="text-primary italic underline decoration-primary/20">Approvals</span>
           </h1>
           <p className="text-lg text-secondary/60 max-w-2xl mx-auto">
@@ -31,7 +31,7 @@ export default function CertificationsPage() {
             <span className="text-primary font-bold uppercase tracking-[0.3em] text-sm">
               Official Documents
             </span>
-            <h2 className="text-3xl md:text-5xl font-stencil uppercase mt-4">
+            <h2 className="text-2xl sm:text-3xl md:text-5xl font-stencil uppercase mt-4">
               Certificate <span className="text-primary italic underline decoration-primary/20">Gallery</span>
             </h2>
             <p className="text-lg text-secondary/60 mt-4">
@@ -75,7 +75,7 @@ export default function CertificationsPage() {
       {/* Quality Standards Framework Summary */}
       <Section className="py-8 pb-24 bg-white border-t border-gray-100">
         <div className="section-container max-w-4xl mx-auto space-y-8 text-center">
-          <h3 className="text-3xl font-stencil uppercase">Our Quality <span className="text-primary italic">Framework</span></h3>
+          <h3 className="text-2xl sm:text-3xl font-stencil uppercase">Our Quality <span className="text-primary italic">Framework</span></h3>
           <p className="text-secondary/70 leading-relaxed">
             Every charger manufactured at our facilities undergoes a 42-point quality check including thermal imaging, electrical load cycle stress tests, insulation resistance checks, and firmware validation. We ensure that our systems are fail-proof under extreme Indian grid and environmental conditions.
           </p>

@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="bg-surface border-t border-gray-100 pt-20 pb-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-12 mb-12 sm:mb-16">
           {/* Company Bio */}
           <div className="space-y-6">
             <Logo />
@@ -67,7 +67,7 @@ export default function Footer() {
               </li>
               <li className="flex gap-3 text-secondary/70">
                 <Mail className="text-primary flex-shrink-0" size={20} />
-                <a href="mailto:evonnchargingsolutions@gmail.com" className="hover:text-primary transition-colors">evonnchargingsolutions@gmail.com</a>
+                <a href="mailto:evonnchargingsolutions@gmail.com" className="hover:text-primary transition-colors break-all">evonnchargingsolutions@gmail.com</a>
               </li>
             </ul>
           </div>

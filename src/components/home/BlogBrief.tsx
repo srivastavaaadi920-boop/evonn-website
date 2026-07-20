@@ -8,10 +8,10 @@ export default function BlogBrief() {
   return (
     <Section className="bg-gray-50 py-24">
       <div className="section-container">
-        <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-8 sm:mb-16 gap-6">
           <div className="space-y-4">
             <span className="text-primary font-bold uppercase tracking-widest text-sm">Industry Insights</span>
-            <h2 className="text-4xl md:text-5xl font-stencil uppercase">Latest from <span className="text-primary">our Blog</span></h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-stencil uppercase">Latest from <span className="text-primary">our Blog</span></h2>
           </div>
           <Link href="/blogs" className="btn-outline inline-flex items-center gap-2">
             Read All Articles

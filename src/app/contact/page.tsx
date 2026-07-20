@@ -8,7 +8,7 @@ export default function ContactPage() {
       <Section className="bg-gray-50 py-20 border-b border-gray-100">
         <div className="section-container text-center">
           <span className="text-primary font-bold uppercase tracking-[0.3em] text-sm">Get in Touch</span>
-          <h1 className="text-5xl md:text-7xl font-stencil uppercase mt-6 mb-8">Contact <span className="text-primary italic">EV-ONN</span></h1>
+          <h1 className="text-3xl sm:text-5xl md:text-7xl font-stencil uppercase mt-4 sm:mt-6 mb-4 sm:mb-8">Contact <span className="text-primary italic">EV-ONN</span></h1>
           <p className="max-w-2xl mx-auto text-xl text-secondary/60">
             Have a question or ready to start your EV infrastructure journey? We're here to help.
           </p>
@@ -17,7 +17,7 @@ export default function ContactPage() {
 
       <Section className="py-24 bg-white">
         <div className="section-container">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 sm:gap-12 lg:gap-16">
             <div className="lg:col-span-5 space-y-12">
               <div className="space-y-8">
                 <h2 className="text-4xl font-stencil uppercase">Contact Information</h2>

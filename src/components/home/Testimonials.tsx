@@ -37,10 +37,10 @@ export default function Testimonials() {
         <div className="flex flex-col items-center text-center space-y-12">
           <div className="space-y-4">
             <span className="text-primary font-bold uppercase tracking-widest text-sm">Client Feedback</span>
-            <h2 className="text-4xl md:text-5xl font-stencil uppercase">What Industry <span className="text-primary">Leaders Say</span></h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-stencil uppercase">What Industry <span className="text-primary">Leaders Say</span></h2>
           </div>
 
-          <div className="relative w-full max-w-4xl px-12">
+          <div className="relative w-full max-w-4xl px-10 sm:px-12">
             <Quote className="absolute -top-10 -left-4 text-primary/10 w-24 h-24 -z-10" />
             
             <AnimatePresence mode="wait">
@@ -56,7 +56,7 @@ export default function Testimonials() {
                     <Star key={i} size={18} fill="#3D5438" className="text-primary" />
                   ))}
                 </div>
-                <p className="text-2xl md:text-3xl leading-relaxed italic text-secondary/80">
+                <p className="text-xl sm:text-2xl md:text-3xl leading-relaxed italic text-secondary/80">
                   "{testimonials[current].content}"
                 </p>
                 <div className="space-y-1">
@@ -66,11 +66,11 @@ export default function Testimonials() {
               </motion.div>
             </AnimatePresence>
 
-            <button onClick={prev} className="absolute left-0 top-1/2 -translate-y-1/2 p-3 rounded-full bg-gray-50 hover:bg-primary hover:text-white transition-all">
-              <ChevronLeft size={24} />
+            <button onClick={prev} className="absolute left-0 top-1/2 -translate-y-1/2 p-2 sm:p-3 rounded-full bg-gray-50 hover:bg-primary hover:text-white transition-all">
+              <ChevronLeft size={20} />
             </button>
-            <button onClick={next} className="absolute right-0 top-1/2 -translate-y-1/2 p-3 rounded-full bg-gray-50 hover:bg-primary hover:text-white transition-all">
-              <ChevronRight size={24} />
+            <button onClick={next} className="absolute right-0 top-1/2 -translate-y-1/2 p-2 sm:p-3 rounded-full bg-gray-50 hover:bg-primary hover:text-white transition-all">
+              <ChevronRight size={20} />
             </button>
           </div>
         </div>

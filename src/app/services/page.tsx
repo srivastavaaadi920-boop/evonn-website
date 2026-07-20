@@ -101,8 +101,8 @@ export default function ServicesPage() {
       <Section className="bg-gray-50 py-24 border-b border-gray-100">
         <div className="section-container text-center max-w-4xl mx-auto space-y-6">
            <span className="text-primary font-bold uppercase tracking-[0.3em] text-sm">Expertise</span>
-           <h1 className="text-5xl md:text-7xl font-stencil uppercase">Complete <span className="text-primary italic underline decoration-primary/20">Solutions</span></h1>
-           <p className="text-xl text-secondary/60">From hardware supply to turnkey infrastructure development — we cover the entire spectrum.</p>
+           <h1 className="text-3xl sm:text-5xl md:text-7xl font-stencil uppercase">Complete <span className="text-primary italic underline decoration-primary/20">Solutions</span></h1>
+           <p className="text-lg sm:text-xl text-secondary/60">From hardware supply to turnkey infrastructure development — we cover the entire spectrum.</p>
         </div>
       </Section>
 
@@ -112,12 +112,12 @@ export default function ServicesPage() {
         {detailedServices.map((service, i) => (
           <Section key={service.id} id={service.id} className={`py-24 ${i % 2 === 0 ? "bg-white" : "bg-gray-50"}`}>
             <div className="section-container">
-              <div className={`flex flex-col lg:flex-row items-center gap-16 ${i % 2 === 0 ? "" : "lg:flex-row-reverse"}`}>
+              <div className={`flex flex-col lg:flex-row items-center gap-8 sm:gap-12 lg:gap-16 ${i % 2 === 0 ? "" : "lg:flex-row-reverse"}`}>
                 <div className="flex-1 space-y-8">
                   <div className="w-16 h-16 rounded-2xl bg-primary/10 flex items-center justify-center text-primary">
                     <service.icon size={32} />
                   </div>
-                  <h2 className="text-4xl font-stencil uppercase leading-tight">{service.title}</h2>
+                  <h2 className="text-2xl sm:text-3xl md:text-4xl font-stencil uppercase leading-tight">{service.title}</h2>
                   <p className="text-lg text-secondary/60 leading-relaxed">{service.desc}</p>
                   <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     {service.features.map(f => (
@@ -133,7 +133,7 @@ export default function ServicesPage() {
                   </Link>
                 </div>
                 <div className="flex-1">
-                  <img src={service.image} alt={service.title} className="rounded-3xl shadow-2xl grayscale hover:grayscale-0 transition-all duration-700 h-[500px] w-full object-cover" />
+                  <img src={service.image} alt={service.title} className="rounded-3xl shadow-2xl grayscale hover:grayscale-0 transition-all duration-700 h-[280px] sm:h-[380px] lg:h-[500px] w-full object-cover" />
                 </div>
               </div>
             </div>

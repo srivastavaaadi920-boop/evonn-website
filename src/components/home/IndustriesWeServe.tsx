@@ -22,7 +22,7 @@ export default function IndustriesWeServe() {
       <div className="section-container">
         <div className="text-center max-w-3xl mx-auto mb-20">
           <span className="text-primary font-bold uppercase tracking-widest text-sm">Targeted Solutions</span>
-          <h2 className="text-4xl md:text-5xl font-stencil uppercase mt-4">Industries We <span className="text-primary">Serve</span></h2>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-stencil uppercase mt-4">Industries We <span className="text-primary">Serve</span></h2>
           <p className="text-secondary/60 mt-6">Tailored EV charging infrastructure for every business sector.</p>
         </div>
 
@@ -31,7 +31,7 @@ export default function IndustriesWeServe() {
             <motion.div
               key={industry.name}
               whileHover={{ scale: 1.05, backgroundColor: "rgba(61, 84, 56, 0.05)" }}
-              className="flex flex-col items-center justify-center p-8 rounded-3xl border border-gray-100 transition-all group"
+              className="flex flex-col items-center justify-center p-4 sm:p-8 rounded-3xl border border-gray-100 transition-all group"
             >
               <div className="w-16 h-16 rounded-2xl bg-gray-50 flex items-center justify-center text-secondary/40 group-hover:bg-primary group-hover:text-white transition-all mb-4">
                 <industry.icon size={32} />

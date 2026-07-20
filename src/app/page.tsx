@@ -6,7 +6,6 @@ import ProductShowcase from "../components/home/ProductShowcase";
 import IndustriesWeServe from "../components/home/IndustriesWeServe";
 import WhyChooseUs from "../components/home/WhyChooseUs";
 import Testimonials from "../components/home/Testimonials";
-import BlogBrief from "../components/home/BlogBrief";
 import FAQ from "../components/home/FAQ";
 import PartnerSection from "../components/home/PartnerSection";
 import ContactPreview from "../components/home/ContactPreview";
@@ -22,7 +21,6 @@ export default function Home() {
       <WhyChooseUs />
       <IndustriesWeServe />
       <Testimonials />
-      <BlogBrief />
       <PartnerSection />
       <FAQ />
       <ContactPreview />

@@ -162,7 +162,7 @@ export default function PressCoveragePage() {
           <span className="text-primary font-bold uppercase tracking-[0.3em] text-sm flex items-center justify-center gap-2">
             <Newspaper size={16} /> Newsroom
           </span>
-          <h1 className="text-4xl md:text-6xl font-stencil uppercase">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-stencil uppercase">
             Press & <span className="text-primary italic underline decoration-primary/20">Coverage</span>
           </h1>
           <p className="text-lg text-secondary/60 max-w-2xl mx-auto">
@@ -175,7 +175,7 @@ export default function PressCoveragePage() {
       <Section className="py-16">
         <div className="section-container">
           {/* Spotlight Story */}
-          <div className="bg-white border border-gray-100 rounded-3xl p-8 md:p-12 shadow-lg flex flex-col justify-between space-y-8 relative overflow-hidden">
+          <div className="bg-white border border-gray-100 rounded-3xl p-6 sm:p-8 md:p-12 shadow-lg flex flex-col justify-between space-y-8 relative overflow-hidden">
             <div className="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-full blur-2xl pointer-events-none" />
             
             <div className="space-y-4">
@@ -185,7 +185,7 @@ export default function PressCoveragePage() {
                 </span>
                 <span className="text-xs text-secondary/40 font-mono">June 2026</span>
               </div>
-              <h2 className="text-2xl md:text-4xl font-stencil uppercase leading-tight text-secondary">
+              <h2 className="text-xl sm:text-2xl md:text-4xl font-stencil uppercase leading-tight text-secondary">
                 Leading the Charge: EV-ONN Featured in <span className="text-primary italic">India&apos;s Tech Innovators</span>
               </h2>
               <p className="text-secondary/70 leading-relaxed text-base">

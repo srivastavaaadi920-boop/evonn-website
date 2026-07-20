@@ -195,7 +195,7 @@ export default function GalleryPage() {
           <span className="text-primary font-bold uppercase tracking-[0.3em] text-sm flex items-center justify-center gap-2">
             <ImageIcon size={16} /> Showcase
           </span>
-          <h1 className="text-4xl md:text-6xl font-stencil uppercase">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-stencil uppercase">
             Installation <span className="text-primary italic underline decoration-primary/20">Gallery</span>
           </h1>
           <p className="text-lg text-secondary/60 max-w-2xl mx-auto">

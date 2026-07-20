@@ -10,8 +10,8 @@ export default function AboutPage() {
       <Section className="bg-gray-50 py-24 relative overflow-hidden">
          <div className="section-container text-center max-w-4xl mx-auto space-y-6">
             <span className="text-primary font-bold uppercase tracking-[0.3em] text-sm">Our Legacy</span>
-            <h1 className="text-5xl md:text-7xl font-stencil uppercase">Driving India's <span className="text-primary italic underline decoration-primary/20">Mobility</span></h1>
-            <p className="text-xl text-secondary/60 leading-relaxed italic">
+            <h1 className="text-4xl sm:text-5xl md:text-7xl font-stencil uppercase">Driving India's <span className="text-primary italic underline decoration-primary/20">Mobility</span></h1>
+            <p className="text-lg sm:text-xl text-secondary/60 leading-relaxed italic">
                "EV-ONN Charging Solutions is more than just a provider — we are architects of India's sustainable energy future."
             </p>
             
@@ -30,13 +30,13 @@ export default function AboutPage() {
 
       <Section className="bg-white py-24">
          <div className="section-container">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-20 items-center">
                <div className="space-y-8">
                   <h2 className="text-4xl font-stencil uppercase leading-tight">Expertise in Every <span className="text-primary italic">Detail</span></h2>
                   <p className="text-lg text-secondary/70 leading-relaxed">
                      At EV-ONN, we specialize in high-voltage infrastructure and smart charging ecosystems. With years of experience in electrical engineering and power distribution, we bridge the gap between traditional power systems and modern electric mobility.
                   </p>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 pt-4">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-10 pt-4">
                      <div className="space-y-4">
                         <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary">
                            <Target size={24} />
@@ -82,7 +82,7 @@ export default function AboutPage() {
                   { t: "Innovation", d: "Smart charging technology with IoT integration." },
                   { t: "Sustainability", d: "Promoting carbon-neutral transportation." }
                ].map((v, i) => (
-                  <div key={i} className="p-12 rounded-3xl bg-gray-50 border border-gray-100 space-y-4 hover:shadow-lg transition-all">
+                  <div key={i} className="p-6 sm:p-12 rounded-3xl bg-gray-50 border border-gray-100 space-y-4 hover:shadow-lg transition-all">
                      <Zap className="text-primary mx-auto" size={32} />
                      <h3 className="text-2xl font-bold uppercase">{v.t}</h3>
                      <p className="text-secondary/60">{v.d}</p>

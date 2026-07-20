@@ -12,7 +12,7 @@ export default function ContactPreview() {
       <div className="section-container relative z-10">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           <div className="max-w-2xl space-y-6 text-center lg:text-left">
-            <h2 className="text-4xl md:text-6xl font-stencil uppercase leading-tight">Ready to start your <br /><span className="text-secondary italic">EV Infrastructure</span> project?</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-stencil uppercase leading-tight">Ready to start your <br className="hidden sm:block" /><span className="text-secondary italic">EV Infrastructure</span> project?</h2>
             <p className="text-white/80 text-lg">Contact our experts today for a free site assessment and customized quotation.</p>
             
             <div className="flex flex-wrap justify-center lg:justify-start gap-8 pt-4">
@@ -37,12 +37,12 @@ export default function ContactPreview() {
             </div>
           </div>
 
-          <div className="flex flex-col gap-4">
-            <Link href="/contact" className="bg-secondary text-white px-12 py-5 rounded-full font-bold text-lg hover:bg-black transition-all shadow-2xl flex items-center gap-3 group">
+          <div className="flex flex-col gap-3 sm:gap-4 w-full lg:w-auto">
+            <Link href="/contact" className="bg-secondary text-white px-8 sm:px-12 py-4 sm:py-5 rounded-full font-bold text-base sm:text-lg hover:bg-black transition-all shadow-2xl flex items-center justify-center gap-3 group">
               Get Free Consultation
               <ArrowRight className="transition-transform group-hover:translate-x-1" />
             </Link>
-            <Link href="/ev-station-setup" className="bg-white/10 backdrop-blur-md text-white border border-white/20 px-12 py-5 rounded-full font-bold text-center hover:bg-white/20 transition-all">
+            <Link href="/ev-station-setup" className="bg-white/10 backdrop-blur-md text-white border border-white/20 px-8 sm:px-12 py-4 sm:py-5 rounded-full font-bold text-center hover:bg-white/20 transition-all">
               Request Site Survey
             </Link>
           </div>

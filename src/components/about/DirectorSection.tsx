@@ -62,7 +62,7 @@ const DirectorSection = () => {
       </div>
 
       <div className="section-container relative z-10">
-        <div className="max-w-4xl mb-32">
+        <div className="max-w-4xl mb-12 sm:mb-20 lg:mb-32">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -79,13 +79,13 @@ const DirectorSection = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="text-4xl md:text-6xl font-stencil uppercase leading-tight"
+            className="text-3xl sm:text-4xl md:text-6xl font-stencil uppercase leading-tight"
           >
             Driven by vision, <span className="text-primary italic">innovation</span>, and commitment to sustainable infrastructure.
           </motion.h2>
         </div>
 
-        <div className="space-y-40">
+        <div className="space-y-16 sm:space-y-24 lg:space-y-40">
           {directors.map((person, idx) => (
             <div 
               key={idx} 
@@ -129,7 +129,7 @@ const DirectorSection = () => {
                     <div className="flex items-center gap-2 text-primary">
                       <span className="text-xs font-bold uppercase tracking-widest">Leadership Insight</span>
                     </div>
-                    <h3 className="text-4xl md:text-5xl font-bold">{person.name}</h3>
+                    <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold">{person.name}</h3>
                     <p className="text-primary font-medium tracking-[0.2em] uppercase text-sm">{person.role}</p>
                   </motion.div>
 

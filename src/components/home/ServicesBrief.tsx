@@ -82,8 +82,8 @@ export default function ServicesBrief() {
   return (
     <Section className="bg-background py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center max-w-3xl mx-auto mb-20">
-          <h2 className="text-4xl md:text-5xl mb-6 uppercase">Our Core <span className="text-primary underline decoration-primary/20">Services</span></h2>
+        <div className="text-center max-w-3xl mx-auto mb-10 sm:mb-20">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl mb-4 sm:mb-6 uppercase">Our Core <span className="text-primary underline decoration-primary/20">Services</span></h2>
           <p className="text-lg text-secondary/70 italic font-medium">
             "Driving India's EV Revolution with intelligent and reliable infrastructure"
           </p>

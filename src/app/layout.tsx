@@ -31,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${inter.variable} ${stencil.variable} font-sans bg-background text-secondary antialiased`}>
+      <body className={`${inter.variable} ${stencil.variable} font-sans bg-background text-secondary antialiased overflow-x-hidden`}>
         <LoadingScreen />
         <ScrollProgressBar />
         <Navbar />

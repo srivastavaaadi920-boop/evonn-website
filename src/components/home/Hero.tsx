@@ -34,7 +34,7 @@ export default function Hero() {
   if (images.length === 0) return null;
 
   return (
-    <section className="relative h-[90vh] min-h-[700px] flex items-center overflow-hidden bg-background">
+    <section className="relative h-[90vh] min-h-[580px] flex items-center overflow-hidden bg-background">
       {/* Background Slideshow */}
       <div className="absolute inset-0 z-0">
         <AnimatePresence mode="wait">
@@ -53,32 +53,34 @@ export default function Hero() {
             />
           </motion.div>
         </AnimatePresence>
-        <div className="absolute inset-0 bg-gradient-to-r from-background via-background/40 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-background via-background/70 sm:via-background/40 to-transparent"></div>
+        {/* Extra overlay for mobile readability */}
+        <div className="absolute inset-0 bg-background/40 sm:bg-transparent"></div>
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full pt-20 sm:pt-0">
         <div className="max-w-3xl">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
-            <span className="inline-block py-1 px-4 rounded-full bg-primary/20 backdrop-blur-md text-primary font-bold text-sm mb-6 tracking-widest uppercase border border-primary/10">
+            <span className="inline-block py-1 px-3 sm:px-4 rounded-full bg-primary/20 backdrop-blur-md text-primary font-bold text-xs sm:text-sm mb-4 sm:mb-6 tracking-widest uppercase border border-primary/10">
               Leading EV Infrastructure Partner
             </span>
-            <h1 className="text-5xl md:text-7xl font-stencil text-secondary leading-tight mb-6 drop-shadow-2xl">
+            <h1 className="text-3xl sm:text-5xl md:text-7xl font-stencil text-secondary leading-tight mb-4 sm:mb-6 drop-shadow-2xl">
               Powering the <span className="text-primary italic underline decoration-primary/20">Future</span> of EV Infrastructure
             </h1>
-            <p className="text-xl text-secondary mb-10 leading-relaxed max-w-2xl font-medium drop-shadow-md">
+            <p className="text-base sm:text-xl text-secondary mb-6 sm:mb-10 leading-relaxed max-w-2xl font-medium drop-shadow-md">
               Complete EV Charging Solutions – From Smart Chargers to Full EV Station Setup. Building a future-ready energy ecosystem for India's transition to sustainable mobility.
             </p>
 
-            <div className="flex flex-wrap gap-4">
-              <Link href="/contact" className="btn-primary !px-10 flex items-center gap-2 group">
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
+              <Link href="/contact" className="btn-primary !px-6 sm:!px-10 flex items-center justify-center gap-2 group text-sm sm:text-base">
                 Get Free Consultation
-                <ArrowRight size={18} className="transition-transform group-hover:translate-x-1" />
+                <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
               </Link>
-              <Link href="/products" className="btn-outline !px-10">
+              <Link href="/products" className="btn-outline !px-6 sm:!px-10 text-center text-sm sm:text-base">
                 Explore Products
               </Link>
             </div>
@@ -91,9 +93,9 @@ export default function Hero() {
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.5, duration: 0.8 }}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-secondary/40"
+        className="absolute bottom-6 sm:bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-secondary/40"
       >
-        <p className="text-xs uppercase tracking-[0.3em] font-medium">Scroll to explore</p>
+        <p className="text-xs uppercase tracking-[0.3em] font-medium hidden sm:block">Scroll to explore</p>
         <ChevronDown className="animate-bounce" />
       </motion.div>
     </section>

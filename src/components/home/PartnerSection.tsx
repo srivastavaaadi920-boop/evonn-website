@@ -41,7 +41,7 @@ const CARDS = [
 
 export default function PartnerSection() {
   return (
-    <section className="relative overflow-hidden py-[72px] md:py-[56px] sm:py-[48px]">
+    <section className="relative overflow-hidden py-12 sm:py-14 md:py-[56px] lg:py-[72px]">
       {/* Gradient Background */}
       <div 
         className="absolute inset-0 z-0"
@@ -62,7 +62,7 @@ export default function PartnerSection() {
         }}
       />
 
-      <div className="max-w-[1400px] mx-auto px-6 lg:px-12 relative z-10">
+      <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-12 relative z-10">
         
         {/* Section Header */}
         <div className="text-center max-w-4xl mx-auto mb-10 space-y-5">
@@ -94,13 +94,13 @@ export default function PartnerSection() {
             transition={{ duration: 0.6, delay: 0.1 }}
           >
             <h2 
-              className="font-serif leading-[1.1] text-[52px] lg:text-[52px] md:text-[42px] sm:text-[36px]"
+              className="font-serif leading-[1.1] text-[36px] sm:text-[42px] md:text-[48px] lg:text-[52px]"
               style={{
                 fontWeight: 700,
                 color: '#0F172A'
               }}
             >
-              PARTNER WITH <span className="font-stencil italic whitespace-nowrap" style={{ color: '#166534' }}>EV-ONN</span>
+              PARTNER WITH <span className="font-stencil italic" style={{ color: '#166534' }}>EV-ONN</span>
             </h2>
           </motion.div>
 
@@ -112,9 +112,9 @@ export default function PartnerSection() {
             transition={{ duration: 0.4, delay: 0.2 }}
             className="flex items-center justify-center gap-3"
           >
-            <div style={{ width: '120px', height: '2px', backgroundColor: '#22C55E' }} />
+            <div style={{ width: '60px', height: '2px', backgroundColor: '#22C55E' }} />
             <Zap size={18} style={{ color: '#22C55E' }} />
-            <div style={{ width: '120px', height: '2px', backgroundColor: '#22C55E' }} />
+            <div style={{ width: '60px', height: '2px', backgroundColor: '#22C55E' }} />
           </motion.div>
 
           {/* Subtitle */}
@@ -177,7 +177,7 @@ export default function PartnerSection() {
 
                 {/* Heading */}
                 <h3 
-                  className="font-stencil mb-4 text-[30px] md:text-[30px] sm:text-[24px] uppercase"
+                  className="font-stencil mb-3 sm:mb-4 text-[22px] sm:text-[26px] md:text-[30px] uppercase"
                   style={{
                     fontWeight: 700,
                     color: '#0F172A',
@@ -191,7 +191,7 @@ export default function PartnerSection() {
 
                 {/* Short Description (Bold) */}
                 <p 
-                  className="mb-3 text-[17px] md:text-[17px] sm:text-[15px]"
+                  className="mb-3 text-[15px] sm:text-[17px]"
                   style={{
                     fontWeight: 600,
                     lineHeight: 1.5,
@@ -203,7 +203,7 @@ export default function PartnerSection() {
 
                 {/* Long Description */}
                 <p 
-                  className="mb-4 text-[14px] md:text-[14px] sm:text-[13px]"
+                  className="mb-4 text-[13px] sm:text-[14px]"
                   style={{
                     fontWeight: 400,
                     lineHeight: 1.7,

@@ -6,8 +6,8 @@ export default function TrustedBy() {
 
   return (
     <div className="bg-white py-12 border-y border-gray-100 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center gap-8 md:gap-16">
-        <p className="text-secondary/50 font-bold uppercase tracking-widest text-sm whitespace-nowrap">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center gap-4 sm:gap-8 md:gap-16">
+        <p className="text-secondary/50 font-bold uppercase tracking-widest text-xs sm:text-sm whitespace-nowrap text-center sm:text-left">
           Trusted by Industry Leaders
         </p>
         

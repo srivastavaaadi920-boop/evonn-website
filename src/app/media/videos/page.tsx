@@ -16,7 +16,7 @@ export default function VideosPage() {
           <span className="text-primary font-bold uppercase tracking-[0.3em] text-sm flex items-center justify-center gap-2">
             <Video size={16} /> Video Hub
           </span>
-          <h1 className="text-4xl md:text-6xl font-stencil uppercase">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-stencil uppercase">
             Videos & <span className="text-primary italic underline decoration-primary/20">Guides</span>
           </h1>
           <p className="text-lg text-secondary/60 max-w-2xl mx-auto">
@@ -66,12 +66,12 @@ export default function VideosPage() {
             </div>
 
             {/* Featured Video Details */}
-            <div className="lg:col-span-5 p-8 md:p-12 flex flex-col justify-center space-y-6">
+            <div className="lg:col-span-5 p-6 sm:p-8 md:p-12 flex flex-col justify-center space-y-6">
               <div className="inline-flex items-center gap-1.5 text-xs text-primary font-bold bg-primary/10 px-3 py-1 rounded-full w-fit">
                 <Sparkles size={12} />
                 <span>Featured Project</span>
               </div>
-              <h2 className="text-2xl md:text-3xl font-stencil uppercase leading-tight text-secondary">
+              <h2 className="text-xl sm:text-2xl md:text-3xl font-stencil uppercase leading-tight text-secondary">
                 EV-ONN&apos;s Smart Highway <span className="text-primary italic">Charging Hub</span>
               </h2>
               <p className="text-secondary/70 leading-relaxed">
@@ -128,12 +128,12 @@ export default function VideosPage() {
             </div>
 
             {/* Featured Video Details */}
-            <div className="lg:col-span-5 p-8 md:p-12 flex flex-col justify-center space-y-6">
+            <div className="lg:col-span-5 p-6 sm:p-8 md:p-12 flex flex-col justify-center space-y-6">
               <div className="inline-flex items-center gap-1.5 text-xs text-primary font-bold bg-primary/10 px-3 py-1 rounded-full w-fit">
                 <Sparkles size={12} />
                 <span>Featured Interview</span>
               </div>
-              <h2 className="text-2xl md:text-3xl font-stencil uppercase leading-tight text-secondary">
+              <h2 className="text-xl sm:text-2xl md:text-3xl font-stencil uppercase leading-tight text-secondary">
                 The Vision Behind <span className="text-primary italic">EV-ONN Charging Solutions</span>
               </h2>
               <p className="text-secondary/70 leading-relaxed">

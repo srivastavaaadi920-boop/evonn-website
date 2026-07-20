@@ -129,7 +129,7 @@ ${formData.message}`
       <Section className="bg-gray-50 py-24 relative overflow-hidden">
         <div className="section-container text-center max-w-4xl mx-auto space-y-6">
           <span className="text-primary font-bold uppercase tracking-[0.3em] text-sm">Location Partner</span>
-          <h1 className="text-5xl md:text-7xl font-stencil uppercase leading-tight">
+          <h1 className="text-3xl sm:text-5xl md:text-7xl font-stencil uppercase leading-tight">
             Turn Your Property Into A <span className="text-primary italic underline decoration-primary/20">Profitable</span> EV Charging Destination
           </h1>
           <p className="text-xl text-secondary/60 leading-relaxed">
@@ -271,7 +271,7 @@ ${formData.message}`
           <img 
             src="/images/ev-onn-banner.png" 
             alt="EV-ONN Charging Station with Cafe" 
-            className="w-full h-[400px] object-cover rounded-3xl shadow-2xl"
+            className="w-full h-[200px] sm:h-[300px] md:h-[400px] object-cover rounded-3xl shadow-2xl"
           />
         </div>
       </Section>

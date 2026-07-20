@@ -227,8 +227,8 @@ function ProductsContent() {
       <Section className="bg-white py-24 border-b border-gray-100">
         <div className="section-container text-center max-w-4xl mx-auto space-y-6">
            <span className="text-primary font-bold uppercase tracking-[0.3em] text-sm">Product Catalog</span>
-           <h1 className="text-5xl md:text-7xl font-stencil uppercase">Advanced <span className="text-primary italic underline decoration-primary/20">Solutions</span></h1>
-           <p className="text-xl text-secondary/60">Explore our complete product range — from smart EV chargers to power infrastructure and industrial cooling.</p>
+           <h1 className="text-3xl sm:text-5xl md:text-7xl font-stencil uppercase">Advanced <span className="text-primary italic underline decoration-primary/20">Solutions</span></h1>
+           <p className="text-lg sm:text-xl text-secondary/60">Explore our complete product range — from smart EV chargers to power infrastructure and industrial cooling.</p>
         </div>
       </Section>
 
@@ -240,7 +240,7 @@ function ProductsContent() {
               <button
                 key={cat.key}
                 onClick={() => { setActiveCategory(cat.key); setChargerType("All"); }}
-                className={`group relative px-10 py-4 rounded-2xl text-sm font-bold uppercase tracking-wider transition-all duration-300 flex items-center gap-3 overflow-hidden ${
+                className={`group relative px-6 sm:px-10 py-3 sm:py-4 rounded-2xl text-xs sm:text-sm font-bold uppercase tracking-wider transition-all duration-300 flex items-center gap-2 sm:gap-3 overflow-hidden ${
                   activeCategory === cat.key
                     ? "bg-primary text-white shadow-xl shadow-primary/30 scale-105"
                     : "bg-white text-secondary/60 hover:bg-gray-50 hover:text-secondary shadow-md hover:shadow-lg border border-gray-200/50"
@@ -266,7 +266,7 @@ function ProductsContent() {
                 <button
                   key={type}
                   onClick={() => setChargerType(type)}
-                  className={`relative px-8 py-3 rounded-xl text-xs font-bold uppercase tracking-wider transition-all duration-300 ${
+                  className={`relative px-5 sm:px-8 py-2.5 sm:py-3 rounded-xl text-[10px] sm:text-xs font-bold uppercase tracking-wider transition-all duration-300 ${
                     chargerType === type
                       ? "bg-secondary text-white shadow-lg shadow-secondary/30 scale-105"
                       : "bg-white text-secondary/50 hover:bg-gray-50 hover:text-secondary border border-gray-200/70 hover:border-secondary/30"
@@ -316,10 +316,10 @@ function ProductsContent() {
                               )}
                            </div>
                         </div>
-                        <div className="p-10 space-y-6 flex-grow">
+                        <div className="p-6 sm:p-10 space-y-4 sm:space-y-6 flex-grow">
                            <div className="space-y-2">
-                              <h3 className="text-3xl font-stencil uppercase text-secondary group-hover:text-primary transition-colors leading-tight">{p.name}</h3>
-                              <p className="text-secondary/60 line-clamp-2 leading-relaxed">{p.desc}</p>
+                              <h3 className="text-2xl sm:text-3xl font-stencil uppercase text-secondary group-hover:text-primary transition-colors leading-tight">{p.name}</h3>
+                              <p className="text-secondary/60 line-clamp-2 leading-relaxed text-sm">{p.desc}</p>
                            </div>
                            
                            <div className="grid grid-cols-2 gap-4">
@@ -331,8 +331,8 @@ function ProductsContent() {
                               ))}
                            </div>
                         </div>
-                        <div className="p-10 pt-0 border-t border-gray-50 mt-auto">
-                           <Link href="/contact" className="w-full btn-primary !py-4 text-center text-sm flex justify-center items-center gap-2 mt-8">
+                        <div className="p-6 sm:p-10 pt-0 border-t border-gray-50 mt-auto">
+                           <Link href="/contact" className="w-full btn-primary !py-3.5 text-center text-sm flex justify-center items-center gap-2 mt-6">
                               Inquiry
                               <ArrowRight size={18} />
                            </Link>
