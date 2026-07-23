@@ -7,7 +7,7 @@ import IndustriesWeServe from "../components/home/IndustriesWeServe";
 import WhyChooseUs from "../components/home/WhyChooseUs";
 import Testimonials from "../components/home/Testimonials";
 import FAQ from "../components/home/FAQ";
-import PartnerSection from "../components/home/PartnerSection";
+
 import ContactPreview from "../components/home/ContactPreview";
 
 export default function Home() {
@@ -21,7 +21,7 @@ export default function Home() {
       <WhyChooseUs />
       <IndustriesWeServe />
       <Testimonials />
-      <PartnerSection />
+
       <FAQ />
       <ContactPreview />
     </div>

@@ -55,7 +55,7 @@ export default function AboutPage() {
                </div>
                <div className="relative">
                   <img 
-                     src="/images/about-hero.jpg" 
+                     src="/images/about-hero.webp" 
                      className="rounded-3xl shadow-2xl" 
                      alt="EV Hub" 
                   />

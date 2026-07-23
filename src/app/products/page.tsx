@@ -21,7 +21,7 @@ const products = [
     name: "3.3kW Single Phase",
     desc: "Compact residential charger with smart monitoring.",
     specs: ["Single Phase", "7m Cable", "Bluetooth/Wi-Fi", "IP65 Waterproof"],
-    image: "/images/ac-charger-station.png"
+    image: "/images/ac-charger-station.webp"
   },
   {
     id: 2,
@@ -30,7 +30,7 @@ const products = [
     name: "7.4kW Smart Wallbox",
     desc: "High-performance wallbox for modern homes and small offices.",
     specs: ["Single Phase", "Dynamic Load", "Type 2 Connect", "Mobile App"],
-    image: "/images/ac-charger-station.png"
+    image: "/images/ac-charger-station.webp"
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ const products = [
     name: "10kW AC Charger",
     desc: "Versatile charging solution for residential and commercial use.",
     specs: ["Single Phase", "Type 2 Socket", "Smart Control", "Weatherproof"],
-    image: "/images/ac-charger-station.png"
+    image: "/images/ac-charger-station.webp"
   },
   {
     id: 4,
@@ -48,7 +48,7 @@ const products = [
     name: "11kW AC Charger",
     desc: "Balanced power for efficient daily charging needs.",
     specs: ["Three Phase", "RFID Access", "Load Management", "App Control"],
-    image: "/images/ac-charger-station.png"
+    image: "/images/ac-charger-station.webp"
   },
   {
     id: 5,
@@ -57,7 +57,7 @@ const products = [
     name: "15kW AC Charger",
     desc: "Enhanced charging speed for commercial applications.",
     specs: ["Three Phase", "Dual Socket", "OCPP Ready", "Remote Monitor"],
-    image: "/images/ac-charger-station.png"
+    image: "/images/ac-charger-station.webp"
   },
   {
     id: 6,
@@ -66,7 +66,7 @@ const products = [
     name: "22kW Commercial AC",
     desc: "Robust charging for business parks and malls.",
     specs: ["Triple Phase", "Dual Connector", "OCPP 1.6J", "RFID Access"],
-    image: "/images/ac-charger-station.png"
+    image: "/images/ac-charger-station.webp"
   },
   // --- DC Chargers ---
   {
@@ -76,7 +76,7 @@ const products = [
     name: "30kW Compact DC",
     desc: "Fast charging in a space-saving design.",
     specs: ["CCS2 / CHAdeMO", "Modular Power", "Indoor/Outdoor", "LCD Display"],
-    image: "/images/dc-charger-station.png"
+    image: "/images/dc-charger-station.webp"
   },
   {
     id: 8,
@@ -85,7 +85,7 @@ const products = [
     name: "60kW Public DC",
     desc: "The standard for public charging hubs.",
     specs: ["Dual Gun", "90% Efficiency", "Cloud Integrated", "Rugged Built"],
-    image: "/images/dc-charger-station.png"
+    image: "/images/dc-charger-station.webp"
   },
   {
     id: 9,
@@ -94,7 +94,7 @@ const products = [
     name: "80kW DC Fast Charger",
     desc: "Rapid charging for commercial and fleet operations.",
     specs: ["CCS2 Connector", "High Efficiency", "Smart Cooling", "V2G Ready"],
-    image: "/images/dc-charger-station.png"
+    image: "/images/dc-charger-station.webp"
   },
   {
     id: 10,
@@ -103,7 +103,7 @@ const products = [
     name: "120kW DC Ultra Fast",
     desc: "Ultra-fast charging for highway corridors.",
     specs: ["Dual Output", "Active Cooling", "Payment Terminal", "Cloud Ready"],
-    image: "/images/dc-charger-station.png"
+    image: "/images/dc-charger-station.webp"
   },
   {
     id: 11,
@@ -112,7 +112,7 @@ const products = [
     name: "180kW DC Supercharger",
     desc: "High-power charging for rapid turnaround.",
     specs: ["Multi-Standard", "Parallel Charge", "Weather Resistant", "4G Connected"],
-    image: "/images/dc-charger-station.png"
+    image: "/images/dc-charger-station.webp"
   },
   {
     id: 12,
@@ -121,7 +121,7 @@ const products = [
     name: "240kW DC Power Station",
     desc: "Premium charging solution for commercial hubs.",
     specs: ["Split Power", "Dynamic Load", "Premium Display", "Advanced Safety"],
-    image: "/images/dc-charger-station.png"
+    image: "/images/dc-charger-station.webp"
   },
   {
     id: 13,
@@ -130,7 +130,7 @@ const products = [
     name: "360kW DC Mega Charger",
     desc: "Maximum power for fleet and heavy-duty vehicles.",
     specs: ["Hyper-Fast", "Liquid Cooled", "Fleet Ready", "Scalable Power"],
-    image: "/images/dc-charger-station.png"
+    image: "/images/dc-charger-station.webp"
   },
   {
     id: 14,
@@ -139,7 +139,7 @@ const products = [
     name: "760kW DC Ultra Power",
     desc: "Top-tier speed for highways and mega charging stations.",
     specs: ["Ultra Power", "Multi-Vehicle", "V2G Ready", "Advanced Cooling"],
-    image: "/images/dc-charger-station.png"
+    image: "/images/dc-charger-station.webp"
   },
   // --- Transformers ---
   {
@@ -149,7 +149,7 @@ const products = [
     name: "Distribution Transformer",
     desc: "Reliable oil-cooled transformers for EV station power distribution.",
     specs: ["10kVA–50,000 kVA", "Oil Cooled", "BIS Certified", "Low Loss Core"],
-    image: "/images/ev-onn-infrastructure.jpg"
+    image: "/images/ev-onn-infrastructure.webp"
   },
   {
     id: 16,
@@ -158,7 +158,7 @@ const products = [
     name: "Dry Type Transformer",
     desc: "Eco-friendly dry transformers for indoor installations.",
     specs: ["Up to 5000 kVA", "Fire Resistant", "Low Noise", "IP23 Enclosure"],
-    image: "/images/ev-onn-infrastructure.jpg"
+    image: "/images/ev-onn-infrastructure.webp"
   },
   {
     id: 17,
@@ -167,7 +167,7 @@ const products = [
     name: "Compact Substation (CSS)",
     desc: "Pre-fabricated substation for rapid EV station power setup.",
     specs: ["Modular Design", "IP54 Enclosure", "Low Maintenance", "Plug & Play"],
-    image: "/images/ev-onn-infrastructure.jpg"
+    image: "/images/ev-onn-infrastructure.webp"
   },
   // --- HVLS Fans ---
   {
@@ -177,7 +177,7 @@ const products = [
     name: "Industrial HVLS 24ft",
     desc: "Maximum air coverage for large warehouses and factories.",
     specs: ["PMSM Motor", "Low Noise", "24ft Diameter", "Reversible Airflow"],
-    image: "/images/ev-onn-hvls-fan.jpg"
+    image: "/images/ev-onn-hvls-fan.webp"
   },
   {
     id: 19,
@@ -186,7 +186,7 @@ const products = [
     name: "Commercial HVLS 16ft",
     desc: "Perfect for showrooms, malls, and commercial venues.",
     specs: ["Energy Efficient", "Smart Control", "IoT Ready", "16ft Diameter"],
-    image: "/images/ev-onn-hvls-fan.jpg"
+    image: "/images/ev-onn-hvls-fan.webp"
   },
   {
     id: 20,
@@ -195,7 +195,7 @@ const products = [
     name: "HVLS Fan 12ft Compact",
     desc: "Ideal for smaller industrial and gym spaces.",
     specs: ["12ft Diameter", "Variable Speed", "Silent Operation", "Easy Install"],
-    image: "/images/ev-onn-hvls-fan.jpg"
+    image: "/images/ev-onn-hvls-fan.webp"
   },
 ];
 

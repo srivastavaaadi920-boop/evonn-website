@@ -7,7 +7,7 @@ export const blogs = [
     excerpt: "Discover how integrating solar energy with EV infrastructure is reducing operational costs and supporting India's green energy mission.",
     date: "May 28, 2026",
     author: "EV-ONN Editorial",
-    image: "/images/ev-onn-solar.png",
+    image: "/images/ev-onn-solar.webp",
     category: "Sustainable Energy",
     content: `
       <p>The transition to electric vehicles (EVs) in India is no longer just about the vehicles; it is about how we power them. At EV-ONN, we believe that true sustainability comes from the sun. Solar-powered EV charging stations are emerging as the gold standard for green infrastructure, providing a clean, reliable, and cost-effective alternative to traditional grid-based charging.</p>
@@ -28,7 +28,7 @@ export const blogs = [
     excerpt: "Protecting your high-value charging assets from grid fluctuations is crucial for longevity and customer safety. Here's what you need to know.",
     date: "May 22, 2026",
     author: "Technical Team",
-    image: "/images/ev-onn-voltage-stabilizer.png",
+    image: "/images/ev-onn-voltage-stabilizer.webp",
     category: "Infrastructure",
     content: `
       <p>Installing a DC Fast Charger is a significant investment. However, many owners overlook the most critical component of a stable charging station: the power quality. Grid fluctuations, surges, and sags are common issues that can lead to expensive hardware failure and dissatisfied customers.</p>
@@ -49,7 +49,7 @@ export const blogs = [
     excerpt: "See how the 'Relax while you Charge' model is becoming a major revenue driver for EV charging station owners across highways.",
     date: "May 18, 2026",
     author: "Business Strategy",
-    image: "/images/ev-onn-food-court.png",
+    image: "/images/ev-onn-food-court.webp",
     category: "Business Management",
     content: `
       <p>The "dwell time" of an EV station—the time a driver spends waiting for a charge—is a unique business opportunity. While a petrol stop takes 5 minutes, a fast EV charge takes 30 to 45 minutes. EV-ONN is redefining this wait time by integrating premium food court amenities into our station designs.</p>

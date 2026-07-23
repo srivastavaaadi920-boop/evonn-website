@@ -11,7 +11,7 @@ const detailedServices = [
     desc: "We provide state-of-the-art charging hardware for every need. Our range includes residential home chargers to high-capacity DC fast chargers for highway hubs.",
     features: ["AC Chargers: 3.3kW, 7.4kW, 10kW, 11kW, 15kW, 22kW", "DC Fast Chargers: 30kW, 60kW, 80kW, 120kW, 180kW, 240kW, 360kW, 760kW", "Smart Connectivity (Wi-Fi/4G)", "OCPP Compliant Cloud Management"],
     icon: PlugZap,
-    image: "/images/ev-onn-chargers.jpg"
+    image: "/images/ev-onn-chargers.webp"
   },
   {
     id: "infrastructure",
@@ -19,7 +19,7 @@ const detailedServices = [
     desc: "Reliable EV charging starts with a robust power grid. We handle the complete electrical infrastructure required to power your stations.",
     features: ["Transformer Supply & Installation", "Electrical Panel Design", "HT/LT Cabling", "Grid Connection Liasoning"],
     icon: Factory,
-    image: "/images/ev-onn-infrastructure.jpg"
+    image: "/images/ev-onn-infrastructure.webp"
   },
   {
     id: "hvls",
@@ -27,7 +27,7 @@ const detailedServices = [
     desc: "High-Volume, Low-Speed fans for massive areas. Perfect for cooling warehouses, factories, and commercial spaces with minimal energy consumption.",
     features: ["Up to 24ft Diameter", "PMSM Motor Technology", "Low Noise Operation", "Exceptional Air Coverage"],
     icon: Wind,
-    image: "/images/ev-onn-hvls-fan.jpg"
+    image: "/images/ev-onn-hvls-fan.webp"
   },
   {
     id: "ups",
@@ -35,7 +35,7 @@ const detailedServices = [
     desc: "Uninterruptible Power Supply systems that ensure your EV charging stations remain operational during power outages, voltage dips, and grid instability.",
     features: ["Online Double Conversion", "Seamless Switchover", "Battery Backup (1–4 hrs)", "Remote Monitoring & Alerts"],
     icon: BatteryCharging,
-    image: "/images/ev-onn-ups.png"
+    image: "/images/ev-onn-ups.webp"
   },
   {
     id: "voltage-stabilizer",
@@ -43,7 +43,7 @@ const detailedServices = [
     desc: "Industrial-grade voltage stabilizers that protect your charging infrastructure from voltage fluctuations, ensuring consistent and safe power delivery.",
     features: ["Wide Input Range (300V–480V)", "Automatic Voltage Regulation", "Overload & Short Circuit Protection", "Digital Display & Diagnostics"],
     icon: Gauge,
-    image: "/images/ev-onn-voltage-stabilizer.png"
+    image: "/images/ev-onn-voltage-stabilizer.webp"
   },
   {
     id: "compact-substation",
@@ -51,7 +51,7 @@ const detailedServices = [
     desc: "Pre-fabricated compact substations designed for rapid deployment at EV charging sites. Plug-and-play power infrastructure that minimizes setup time.",
     features: ["Modular & Scalable Design", "IP54 Weatherproof Enclosure", "HT/LT Integration Ready", "Minimal Civil Work Required"],
     icon: Box,
-    image: "/images/ev-onn-substation.png"
+    image: "/images/ev-onn-substation.webp"
   },
   {
     id: "food-court",
@@ -59,7 +59,7 @@ const detailedServices = [
     desc: "Enhance the customer experience at your EV station with fully equipped food court facilities. Keep customers engaged and comfortable while their vehicles charge.",
     features: ["Modular Kitchen Setup", "Seating & Dining Area", "Vending Machine Integration", "Hygiene & Safety Compliant"],
     icon: UtensilsCrossed,
-    image: "/images/ev-onn-food-court.png"
+    image: "/images/ev-onn-food-court.webp"
   },
   {
     id: "car-wash",
@@ -67,7 +67,7 @@ const detailedServices = [
     desc: "Dedicated car washing bays integrated into EV charging stations. Offer a value-added service that increases dwell time and customer satisfaction.",
     features: ["Automated & Manual Wash Bays", "Water Recycling Systems", "Eco-Friendly Cleaning Solutions", "Revenue Generation Model"],
     icon: CarFront,
-    image: "/images/ev-onn-car-wash.png"
+    image: "/images/ev-onn-car-wash.webp"
   },
   {
     id: "solar-station",
@@ -75,7 +75,7 @@ const detailedServices = [
     desc: "Sustainable EV charging powered by solar energy. Reduce operational costs and carbon footprint with integrated solar panel infrastructure for your stations.",
     features: ["Rooftop & Ground-Mounted Panels", "Net Metering Support", "Battery Storage Integration", "Up to 40% Energy Cost Savings"],
     icon: Sun,
-    image: "/images/ev-onn-solar.png"
+    image: "/images/ev-onn-solar.webp"
   },
   {
     id: "maintenance",
@@ -83,7 +83,7 @@ const detailedServices = [
     desc: "Comprehensive Annual Maintenance Contracts and technical support to keep your EV charging infrastructure running at peak performance with minimal downtime.",
     features: ["Preventive Maintenance Schedules", "24/7 Technical Support", "Spare Parts Inventory", "Performance Analytics & Reports"],
     icon: Settings,
-    image: "/images/ev-onn-maintenance.png"
+    image: "/images/ev-onn-maintenance.webp"
   },
   {
     id: "consultation",
@@ -91,7 +91,7 @@ const detailedServices = [
     desc: "Expert business consultation for EV station setup — from site assessment and ROI planning to regulatory compliance and go-to-market strategy.",
     features: ["Site Feasibility Analysis", "ROI & Business Modeling", "Regulatory & Subsidy Guidance", "Technology Selection Advisory"],
     icon: Info,
-    image: "/images/ev-onn-consultation.png"
+    image: "/images/ev-onn-consultation.webp"
   },
 ];
 

@@ -82,7 +82,7 @@ export default function WhyChooseUs() {
       {/* EV Charging Station Image - Bottom Right */}
       <div className="absolute bottom-0 right-0 z-0 opacity-20 pointer-events-none">
         <Image 
-          src="/images/ev-onn-station.jpg" 
+          src="/images/ev-onn-station.webp" 
           alt="EV Charging Station"
           width={600}
           height={400}

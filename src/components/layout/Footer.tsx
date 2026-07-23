@@ -1,12 +1,12 @@
 import Link from "next/link";
-import { Facebook, Twitter, Linkedin, Instagram, Mail, Phone, MapPin, Send, MessageCircle } from "lucide-react";
+import { Instagram, Youtube, Mail, Phone, MapPin, Send, MessageCircle } from "lucide-react";
 import Logo from "../common/Logo";
 
 export default function Footer() {
   return (
     <footer className="bg-surface border-t border-gray-100 pt-20 pb-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-12 mb-12 sm:mb-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-12 mb-12 sm:mb-16">
           {/* Company Bio */}
           <div className="space-y-6">
             <Logo />
@@ -14,30 +14,21 @@ export default function Footer() {
               EV-ONN Charging Solutions delivers complete electric vehicle charging infrastructure across India. Building future-ready energy ecosystems.
             </p>
             <div className="flex space-x-4">
-              {[Facebook, Twitter, Linkedin, Instagram].map((Icon, i) => (
+              {[
+                { Icon: Instagram, href: "https://www.instagram.com/evonnchargingsolutions" },
+                { Icon: Youtube, href: "https://www.youtube.com/@EV-ONNCHARGINGSOLUTIONS" }
+              ].map(({ Icon, href }, i) => (
                 <Link
                   key={i}
-                  href="#"
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-primary/5 flex items-center justify-center text-primary transition-all hover:bg-primary hover:text-white"
                 >
                   <Icon size={18} />
                 </Link>
               ))}
             </div>
-          </div>
-
-          {/* Quick Links */}
-          <div className="space-y-6">
-            <h4 className="text-xl font-bold">Quick Links</h4>
-            <ul className="space-y-4">
-              {["Home", "About Us", "Services", "Products", "EV Station Setup", "Projects"].map((link) => (
-                <li key={link}>
-                  <Link href={`/${link.toLowerCase().replace(/ /g, "-")}`} className="text-secondary/70 hover:text-primary transition-colors">
-                    {link}
-                  </Link>
-                </li>
-              ))}
-            </ul>
           </div>
 
           {/* Contact Info */}

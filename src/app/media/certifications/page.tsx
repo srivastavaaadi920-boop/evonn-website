@@ -43,7 +43,7 @@ export default function CertificationsPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="group bg-gray-50 rounded-3xl overflow-hidden border border-gray-100 shadow-md hover:shadow-xl transition-all duration-500 hover:-translate-y-2 relative aspect-[4/3] w-full">
               <Image
-                src="/images/certificate-1.jpg"
+                src="/images/certificate-1.webp"
                 alt="EV-ONN Certificate 1"
                 fill
                 className="object-contain p-4 group-hover:scale-105 transition-transform duration-500 ease-out"
@@ -52,7 +52,7 @@ export default function CertificationsPage() {
             </div>
             <div className="group bg-gray-50 rounded-3xl overflow-hidden border border-gray-100 shadow-md hover:shadow-xl transition-all duration-500 hover:-translate-y-2 relative aspect-[4/3] w-full">
               <Image
-                src="/images/certificate-2.jpg"
+                src="/images/certificate-2.webp"
                 alt="EV-ONN Certificate 2"
                 fill
                 className="object-contain p-4 group-hover:scale-105 transition-transform duration-500 ease-out"
@@ -61,7 +61,7 @@ export default function CertificationsPage() {
             </div>
             <div className="group bg-gray-50 rounded-3xl overflow-hidden border border-gray-100 shadow-md hover:shadow-xl transition-all duration-500 hover:-translate-y-2 relative aspect-[4/3] w-full">
               <Image
-                src="/images/certificate-3.jpg"
+                src="/images/certificate-3.webp"
                 alt="EV-ONN Certificate 3"
                 fill
                 className="object-contain p-4 group-hover:scale-105 transition-transform duration-500 ease-out"

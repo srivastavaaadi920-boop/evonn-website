@@ -11,7 +11,7 @@ const galleryItems = [
     location: "Highway Plaza, Uttar Pradesh",
     date: "June 2026",
     description: "Advanced EV-ONN fast-charging setup illuminated at night, featuring multiple heavy-duty charging points and dynamic canopy lighting.",
-    src: "/images/gallery-station-night.jpg",
+    src: "/images/gallery-station-night.webp",
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const galleryItems = [
     location: "Commercial Office Park, Noida",
     date: "May 2026",
     description: "Fleet charging setup integrated seamlessly with a compact substation and smart distribution panel to supply high-reliability power.",
-    src: "/images/gallery-ev-charging.jpg",
+    src: "/images/gallery-ev-charging.webp",
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ const galleryItems = [
     location: "Metro Parking Complex, Delhi",
     date: "June 2026",
     description: "Multi-vehicle supercharging wing featuring custom overhead branding, floor lane markings, and premium smart charger panels.",
-    src: "/images/gallery-super-charging.jpg",
+    src: "/images/gallery-super-charging.webp",
   },
   {
     id: 4,
@@ -38,7 +38,7 @@ const galleryItems = [
     location: "Tech Park Underground Parking, Delhi NCR",
     date: "April 2026",
     description: "Dedicated multi-charger bay supporting rapid charging for company EV vehicles under intelligent load management.",
-    src: "/images/gallery-charging-station.jpg",
+    src: "/images/gallery-charging-station.webp",
   },
   {
     id: 5,
@@ -47,7 +47,7 @@ const galleryItems = [
     location: "Expressway Transit Hub, Haryana",
     date: "May 2026",
     description: "High-power highway charging bay equipped with dual-gun DC fast chargers, serving travelers on key highway corridors.",
-    src: "/images/gallery-jd-green-station.jpg",
+    src: "/images/gallery-jd-green-station.webp",
   },
   {
     id: 6,
@@ -56,7 +56,7 @@ const galleryItems = [
     location: "Commercial Fleet Depot, Uttar Pradesh",
     date: "June 2026",
     description: "30kW and 60kW EV fast chargers standing side by side, offering efficient power distribution for multi-sized electric vehicles.",
-    src: "/images/gallery-axonify-chargers.jpg",
+    src: "/images/gallery-axonify-chargers.webp",
   },
   {
     id: 7,
@@ -65,7 +65,7 @@ const galleryItems = [
     location: "Highway HP Pump, Tamil Nadu",
     date: "May 2026",
     description: "A premium blue EV charging at a state-of-the-art HP eCharge fast-charging bay surrounded by scenic landscaping.",
-    src: "/images/gallery-hp-echarge.jpg",
+    src: "/images/gallery-hp-echarge.webp",
   },
   {
     id: 8,
@@ -74,7 +74,7 @@ const galleryItems = [
     location: "Public Transit Hub, Karnataka",
     date: "June 2026",
     description: "Red luxury EV charging at the smart high-speed charging point illuminated under bright overhead lights.",
-    src: "/images/gallery-red-car-charging.jpg",
+    src: "/images/gallery-red-car-charging.webp",
   },
   {
     id: 9,
@@ -83,7 +83,7 @@ const galleryItems = [
     location: "Manufacturing Assembly Facility",
     date: "April 2026",
     description: "Close-up of EV-ONN's custom designed 60kW dual-gun DC Fast Charger unit, ready for final deployment.",
-    src: "/images/gallery-evonn-unit.jpg",
+    src: "/images/gallery-evonn-unit.webp",
   },
   {
     id: 10,
@@ -92,7 +92,7 @@ const galleryItems = [
     location: "National Highway Hub, Haryana",
     date: "May 2026",
     description: "Wide-angle view of J.D. Green Charging Station under bright daylight, highlighting spacious EV parking and charger slots.",
-    src: "/images/gallery-jd-green-wide.jpg",
+    src: "/images/gallery-jd-green-wide.webp",
   },
   {
     id: 11,
@@ -101,7 +101,7 @@ const galleryItems = [
     location: "Development Lab, India",
     date: "June 2026",
     description: "Detailed view of the EV-ONN smart charging solution unit, showcasing dual socket integrations, digital LCD status screen, and RFID secure scan interface.",
-    src: "/images/gallery-evonn-rfid-unit.jpg",
+    src: "/images/gallery-evonn-rfid-unit.webp",
   },
   {
     id: 12,
@@ -110,7 +110,7 @@ const galleryItems = [
     location: "Infrastructure Expo, Lucknow",
     date: "May 2026",
     description: "Representatives at the EV-ONN charging solutions exhibit showcase, introducing our latest smart AC chargers and custom distribution solutions.",
-    src: "/images/gallery-evonn-booth.jpg",
+    src: "/images/gallery-evonn-booth.webp",
   },
   {
     id: 13,
@@ -119,7 +119,7 @@ const galleryItems = [
     location: "J.D. Green Station, Sitapur Road",
     date: "June 2026",
     description: "Tata Nexon EV vehicle plugged into a high-voltage 60kW DC fast charging point at J.D. Green Charging Station.",
-    src: "/images/gallery-nexon-charging.jpg",
+    src: "/images/gallery-nexon-charging.webp",
   },
   {
     id: 14,
@@ -128,7 +128,7 @@ const galleryItems = [
     location: "Public Transit Point, Lucknow",
     date: "June 2026",
     description: "An e-rickshaw connected to an Axonify-powered EV-ONN fast-charging point.",
-    src: "/images/gallery-e-rickshaw-charger.jpg",
+    src: "/images/gallery-e-rickshaw-charger.webp",
   },
   {
     id: 15,
@@ -137,7 +137,7 @@ const galleryItems = [
     location: "Corporate Campus, Noida",
     date: "June 2026",
     description: "Wall-mounted 3.3kW smart AC charger powered by Tobor app, featuring app integration and step-by-step QR guide.",
-    src: "/images/gallery-tobor-charger.jpg",
+    src: "/images/gallery-tobor-charger.webp",
   },
   {
     id: 16,
@@ -146,7 +146,7 @@ const galleryItems = [
     location: "Highway Corridor, Uttar Pradesh",
     date: "June 2026",
     description: "A premium night render of EV-ONN Expressway Charging Station canopy equipped with solar panels and restaurant facility.",
-    src: "/images/gallery-ev-onn-canopy.jpg",
+    src: "/images/gallery-ev-onn-canopy.webp",
   },
   {
     id: 17,
@@ -155,7 +155,7 @@ const galleryItems = [
     location: "Industrial Area, Uttar Pradesh",
     date: "June 2026",
     description: "High-angle view of the massive state-of-the-art EV-ONN manufacturing facility under the Make in India initiative.",
-    src: "/images/gallery-manufacturing-plant.jpg",
+    src: "/images/gallery-manufacturing-plant.webp",
   },
   {
     id: 18,
@@ -164,7 +164,7 @@ const galleryItems = [
     location: "R&D Facility, India",
     date: "June 2026",
     description: "Engineers assembly and testing EV charging control units and power modules at our advanced development lab.",
-    src: "/images/gallery-engineers-assembly.jpg",
+    src: "/images/gallery-engineers-assembly.webp",
   },
   {
     id: 19,
@@ -173,7 +173,7 @@ const galleryItems = [
     location: "Industrial Area, Uttar Pradesh",
     date: "June 2026",
     description: "Workers assembling EV-ONN charging components on a modern conveyor belt assembly line.",
-    src: "/images/gallery-factory-assembly.jpg",
+    src: "/images/gallery-factory-assembly.webp",
   },
   {
     id: 20,
@@ -182,7 +182,7 @@ const galleryItems = [
     location: "Highway HP Pump, India",
     date: "June 2026",
     description: "Axonify-powered EV-ONN charging point installed at an HP eCharge outlet on the highway corridor.",
-    src: "/images/gallery-hp-charge-station.jpg",
+    src: "/images/gallery-hp-charge-station.webp",
   }
 ];
 export default function GalleryPage() {

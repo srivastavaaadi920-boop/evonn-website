@@ -278,7 +278,7 @@ ${formData.message}`
       <Section className="py-0">
         <div className="section-container">
           <img 
-            src="/images/franchisee-banner.png" 
+            src="/images/franchisee-banner.webp" 
             alt="BE AN EV-ONN FRANCHISEE - Power the future. Build your business with EV-ONN." 
             className="w-full h-[400px] object-cover rounded-3xl shadow-2xl"
           />

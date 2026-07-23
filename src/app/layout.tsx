@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   description: "Complete EV Charging Solutions – From Smart Chargers to Full EV Station Setup. Specializing in AC/DC Chargers, Transformers, and HVLS Fans.",
   keywords: "EV Charging, EV Station Setup, AC Chargers, DC Fast Chargers, EV Infrastructure, Transformers, HVLS Fans, EV-ONN",
   icons: {
-    icon: "/ev-logo-icon.png",
+    icon: "/ev-logo-icon.webp",
   },
 };
 

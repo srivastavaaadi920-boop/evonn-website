@@ -269,7 +269,7 @@ ${formData.message}`
       <Section className="py-0">
         <div className="section-container">
           <img 
-            src="/images/ev-onn-banner.png" 
+            src="/images/ev-onn-banner.webp" 
             alt="EV-ONN Charging Station with Cafe" 
             className="w-full h-[200px] sm:h-[300px] md:h-[400px] object-cover rounded-3xl shadow-2xl"
           />

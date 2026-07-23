@@ -7,7 +7,7 @@ export default function Logo({ className = "" }: { className?: string }) {
     <Link href="/" className={`flex items-center gap-2 group transition-opacity hover:opacity-90 ${className}`}>
       {/* EV icon */}
       <Image
-        src="/ev-logo-icon.png"
+        src="/ev-logo-icon.webp"
         alt="EV-ONN Icon"
         width={48}
         height={48}

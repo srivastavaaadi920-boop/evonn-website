@@ -77,11 +77,7 @@ export default function VideosPage() {
               <p className="text-secondary/70 leading-relaxed">
                 Experience a complete walkthrough of EV-ONN&apos;s next-generation highway charging station designed for modern EV travelers. Explore ultra-fast charging bays, premium amenities, dining facilities, and sustainable infrastructure built to make long-distance electric mobility seamless, comfortable, and reliable.
               </p>
-              <div className="flex items-center gap-6 text-xs text-secondary/60">
-                <span className="flex items-center gap-1"><Clock size={14} /> 42 secs</span>
-                <span className="flex items-center gap-1"><Eye size={14} /> 15.2K views</span>
-                <span className="flex items-center gap-1"><Calendar size={14} /> Recently Added</span>
-              </div>
+
             </div>
           </div>
         </div>
@@ -93,38 +89,14 @@ export default function VideosPage() {
           <div className="bg-white border border-gray-100 rounded-3xl overflow-hidden shadow-xl grid grid-cols-1 lg:grid-cols-12 gap-0">
             {/* Visual Video Player Representation */}
             <div className="lg:col-span-7 relative bg-black min-h-[300px] md:min-h-[400px] flex items-center justify-center overflow-hidden group">
-              <video 
-                id="featured-video-2"
-                src="/videos/ev-onn-vision.mp4" 
-                preload="metadata"
-                controls={isPlaying2}
-                className="absolute inset-0 w-full h-full object-cover"
-                onPlay={() => setIsPlaying2(true)}
-                onPause={() => setIsPlaying2(false)}
-              />
-              
-              {!isPlaying2 && (
-                <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center transition-all duration-300">
-                  <button 
-                    onClick={() => {
-                      const videoEl = document.getElementById("featured-video-2") as HTMLVideoElement;
-                      if (videoEl) videoEl.play();
-                    }}
-                    className="w-20 h-20 rounded-full bg-white text-primary flex items-center justify-center shadow-2xl group-hover:scale-110 group-hover:bg-primary group-hover:text-white transition-all duration-300 z-10"
-                  >
-                    <Play size={32} className="ml-1 fill-current" />
-                  </button>
-                  <span className="bg-black/50 backdrop-blur-md text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider mt-4 z-10">
-                    Featured Video
-                  </span>
-                </div>
-              )}
-              
-              {!isPlaying2 && (
-                <div className="absolute bottom-4 right-4 bg-black/60 backdrop-blur-md text-white text-xs px-2.5 py-1 rounded font-mono z-10">
-                  3:00
-                </div>
-              )}
+              <iframe 
+                className="absolute inset-0 w-full h-full"
+                src="https://www.youtube.com/embed/jI8TPQoit68" 
+                title="The Vision Behind EV-ONN Charging Solutions" 
+                frameBorder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowFullScreen
+              ></iframe>
             </div>
 
             {/* Featured Video Details */}
@@ -139,11 +111,7 @@ export default function VideosPage() {
               <p className="text-secondary/70 leading-relaxed">
                 Join an exclusive conversation with the leadership team of EV-ONN Charging Solutions as they share their vision for accelerating India&apos;s EV infrastructure. Learn about the company&apos;s mission, innovative charging solutions, customer-first approach, and roadmap for building a sustainable electric mobility ecosystem.
               </p>
-              <div className="flex items-center gap-6 text-xs text-secondary/60">
-                <span className="flex items-center gap-1"><Clock size={14} /> 3 mins</span>
-                <span className="flex items-center gap-1"><Eye size={14} /> 8.5K views</span>
-                <span className="flex items-center gap-1"><Calendar size={14} /> Featured Discussion</span>
-              </div>
+
             </div>
           </div>
         </div>

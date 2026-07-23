@@ -46,7 +46,7 @@ export default function AboutOverview() {
           <div className="flex-1 relative">
             <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl">
               <img 
-                src="/images/ev-onn-station.jpg" 
+                src="/images/ev-onn-station.webp" 
                 alt="EV Charging Station" 
                 className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
               />
