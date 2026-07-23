@@ -4,9 +4,6 @@ import Section from "../../../components/common/Section";
 import { Play, Video, Clock, Eye, Calendar, Sparkles, X } from "lucide-react";
 
 export default function VideosPage() {
-  const [isPlaying1, setIsPlaying1] = useState(false);
-  const [isPlaying2, setIsPlaying2] = useState(false);
-
   return (
     <div className="pt-24 min-h-screen bg-gray-50/50">
       {/* Hero Header */}
@@ -31,38 +28,14 @@ export default function VideosPage() {
           <div className="bg-white border border-gray-100 rounded-3xl overflow-hidden shadow-xl grid grid-cols-1 lg:grid-cols-12 gap-0">
             {/* Visual Video Player Representation */}
             <div className="lg:col-span-7 relative bg-black min-h-[300px] md:min-h-[400px] flex items-center justify-center overflow-hidden group">
-              <video 
-                id="featured-video-1"
-                src="/videos/ev-onn-intro.mp4" 
-                preload="metadata"
-                controls={isPlaying1}
-                className="absolute inset-0 w-full h-full object-cover"
-                onPlay={() => setIsPlaying1(true)}
-                onPause={() => setIsPlaying1(false)}
-              />
-              
-              {!isPlaying1 && (
-                <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center transition-all duration-300">
-                  <button 
-                    onClick={() => {
-                      const videoEl = document.getElementById("featured-video-1") as HTMLVideoElement;
-                      if (videoEl) videoEl.play();
-                    }}
-                    className="w-20 h-20 rounded-full bg-white text-primary flex items-center justify-center shadow-2xl group-hover:scale-110 group-hover:bg-primary group-hover:text-white transition-all duration-300 z-10"
-                  >
-                    <Play size={32} className="ml-1 fill-current" />
-                  </button>
-                  <span className="bg-black/50 backdrop-blur-md text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider mt-4 z-10">
-                    Featured Video
-                  </span>
-                </div>
-              )}
-              
-              {!isPlaying1 && (
-                <div className="absolute bottom-4 right-4 bg-black/60 backdrop-blur-md text-white text-xs px-2.5 py-1 rounded font-mono z-10">
-                  0:24
-                </div>
-              )}
+              <iframe 
+                className="absolute inset-0 w-full h-full"
+                src="https://www.youtube.com/embed/7724Kdy-Gqc?si=gFMj8u6yff-VdWHW" 
+                title="EV-ONN's Smart Highway Charging Hub" 
+                frameBorder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowFullScreen
+              ></iframe>
             </div>
 
             {/* Featured Video Details */}

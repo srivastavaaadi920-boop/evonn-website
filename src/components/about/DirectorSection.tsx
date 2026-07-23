@@ -8,7 +8,7 @@ const directors = [
   {
     name: "Savita Srivastava",
     role: "Founding Director",
-    image: "/images/team/savita.webp",
+    image: "/images/team/savita.jpg",
     quote: "Foundation for a sustainable future starts with a clear vision and unwavering commitment.",
     message: [
       "Our journey began with a simple but powerful idea: to transform how India moves. As the founding director, I have seen EV-ONN grow from a vision into a leader in green infrastructure, driven by our passion for environmental stewardship and technological excellence.",
@@ -19,7 +19,7 @@ const directors = [
   {
     name: "Kamal Kant Srivastava",
     role: "Managing Director (MD)",
-    image: "/images/team/kamal.webp",
+    image: "/images/team/kamal.jpg",
     quote: "The future of mobility begins with reliable infrastructure.",
     message: [
       "At EV-ONN Charging Solutions, our vision is to contribute towards India’s growing electric mobility ecosystem by delivering reliable, future-ready, and technology-driven EV charging infrastructure.",
@@ -30,7 +30,7 @@ const directors = [
   {
     name: "Aadi Srivastava",
     role: "Technical Support Executive",
-    image: "/images/team/aadi.webp",
+    image: "/images/team/aadi.jpg",
     quote: "Empowering the next generation of smart energy through innovation.",
     message: [
       "As Technical Support Executive, my focus is on the convergence of technology and infrastructure. We are not just building charging stations; we are building a digital energy network that is responsive, efficient, and user-friendly for every Indian citizen.",
@@ -41,7 +41,7 @@ const directors = [
   {
     name: "Aditi Srivastava",
     role: "Legal Head",
-    image: "/images/team/aditi.webp",
+    image: "/images/team/aditi.jpg",
     quote: "Ethics and compliance are the backbone of sustainable corporate growth.",
     message: [
       "Navigating the legal framework of the renewable energy sector requires precision and foresight. My goal is to ensure that EV-ONN operates at the highest standards of transparency and compliance.",
